@@ -55,54 +55,54 @@ BEI TOPPER'S CLUB is a Flask-based web application designed to manage user accou
    
    Setup:
    
-   1. Clone the Repository:
-   
-   
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-   
-   
-   2. Install Dependencies:
-      
-   
-   Create a virtual environment and install required packages:
-   
-   python -m venv venv
-   
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   
-   pip install -r requirements.txt
-   
-   
-   3. Database Configuration:
-   
-   The project uses a **hosted PostgreSQL database**.
-   
-   
-   - **Database Name**: final_dbms
-   
-   - **User**: final_dbms_user
-   
-   - **Password**: kiyFsG55ZbMbw59HJi49ere5c8bOQBHf
-   
-   - **Host**: dpg-cqq3a02j1k6c73da6nbg-a.oregon-postgres.render.com
-   
-   - **Port**: 5432
-   - 
-   Ensure that your PostgreSQL database is properly set up with the correct credentials.
-   
-   
-   4.Run Migrations:
-   
-    Make sure your PostgreSQL database schema is up-to-date by running any necessary migrations.
-   
-   
-   5.Run the Application:
-   
-   python app.py
-   The application will be available at http://127.0.0.1:5000/.
+1. Clone the Repository:
 
+
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+
+2. Install Dependencies:
    
+
+Create a virtual environment and install required packages:
+
+python -m venv venv
+
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+pip install -r requirements.txt
+
+
+3. Database Configuration:
+
+The project uses a **hosted PostgreSQL database**.
+
+
+- **Database Name**: final_dbms
+
+- **User**: final_dbms_user
+
+- **Password**: kiyFsG55ZbMbw59HJi49ere5c8bOQBHf
+
+- **Host**: dpg-cqq3a02j1k6c73da6nbg-a.oregon-postgres.render.com
+
+- **Port**: 5432
+- 
+Ensure that your PostgreSQL database is properly set up with the correct credentials.
+
+
+4.Run Migrations:
+
+ Make sure your PostgreSQL database schema is up-to-date by running any necessary migrations.
+
+
+5.Run the Application:
+
+python app.py
+The application will be available at http://127.0.0.1:5000/.
+
+
 
 
 **Usage:**
