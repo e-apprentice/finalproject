@@ -149,15 +149,18 @@ Validation and Error Handling: Validate user inputs and handle errors gracefully
 Session Management: Secure session data with HTTPS and secure cookies.
 
 Database Schema and Migrations: Keep the database schema up-to-date and ensure data integrity. Run migrations as needed.
-contribution of each member:
 
-1.AGRIMA: FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html and subject_descriptions.html.
+**contribution of each member:**
 
-2.SANSKRITI:FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html.
+1.AGRIMA:DESIGNING AND EXECUTING FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html and subject_descriptions.html.
 
-3.PRATISTHA:FRONT END OF subject_description.html,BACKEND FOR Userlogin page, User's subject page, connecting Databse with FRONT END.
+2.SANSKRITI:DESIGNING AND EXECUTING FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html ,Database Hosting.
 
-Contribution:
+3.PRATISTHA:DESIGNING AND EXECUTING FRONT END OF subject_description.html,BACKEND FOR Userlogin page, User's subject page, connecting Databse with FRONT END.
+**Integration of Database with website was done collectively by all three of us**
+
+
+**Contribution:**
 
 To contribute to this project, please fork the repository, make your changes, and submit a pull request. For detailed contribution guidelines, refer to CONTRIBUTING.md.
 
