@@ -242,11 +242,11 @@ Database Schema and Migrations: Keep the database schema up-to-date and ensure d
 
 
 
-1.AGRIMA:DESIGNING AND EXECUTING FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html and subject_descriptions.html.
+1.AGRIMA: DESIGNING AND EXECUTING FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html, admin_subjects.html.
 
-2.SANSKRITI:DESIGNING AND EXECUTING FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html ,Database Hosting.
+2.SANSKRITI: DESIGNING AND EXECUTING FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html ,Database Hosting.
 
-3.PRATISTHA:DESIGNING AND EXECUTING FRONT END OF subject_description.html,BACKEND FOR Userlogin page and User's subject page AND  user's subject page and user's subject_descriptions page
+3.PRATISTHA: DESIGNING AND EXECUTING FRONT END OF subject_description.html,BACKEND FOR Userlogin page, user's subject page AND user's subject_descriptions page
 
 
 **Integration of Database with website was done collectively by all three of us**
