@@ -29,7 +29,7 @@ def get_db_connection():
 def is_valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
 
-@app.route("/")
+@app.route("/home")
 def home():
     return render_template("home.html")
 
