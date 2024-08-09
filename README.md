@@ -33,12 +33,14 @@ Setup: 1. Clone the Repository:
 
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
+
 2. Install Dependencies:
 
 Create a virtual environment and install required packages:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+
 3. Database Configuration:
 
 The project uses a **hosted PostgreSQL database**.
@@ -57,6 +59,7 @@ Ensure that your PostgreSQL database is properly set up with the correct credent
 4.Run Migrations:
 
  Make sure your PostgreSQL database schema is up-to-date by running any necessary migrations.
+
 5.Run the Application:
 
 python app.py
@@ -81,6 +84,7 @@ API Endpoints:
 /logout: Log out
 /adminsign: Admin login
 /admin/subjects: Admin subject management
+
 Application Structure:
 
 main.py: The main application file containing routes and logic.
@@ -102,8 +106,8 @@ Admin Portal Admin Credentials:
 
 Admin 1
 
-Email:<agrima email hala>
-password:<password>
+Email:agrimaregmi2004@gmail.com
+password:Agrima11
 
 Admin 2:
 Email: pratistha.sapkota123@gmail.com
@@ -112,11 +116,22 @@ Password: Pratistha21
 Admin 3:
 Email:sanskriti.khatiwada@gmail.com
 password: sanskriti137
+
 Admin Features:
 
 Add Subjects: Admins can add new subjects by entering the subject name and the semester it belongs to.
 
 View Subjects: Admins can view a list of all subjects in the database.
+
+Database Schema
+The application uses a PostgreSQL database with the following schema:
+
+Tables
+user: Stores user information (user_id, username, email, password).
+sem: Stores semester information (semester_id, name).
+user_sem: Junction table between users and semesters (user_id, semester_id).
+subjects: Stores subjects (subject_id, name, semester_id).
+subject_descriptions: Stores detailed descriptions of subjects (subject_id, average_marks, study_days, resources).
 
 Potential Issues:
 
@@ -127,11 +142,11 @@ Session Management: Secure session data with HTTPS and secure cookies.
 Database Schema and Migrations: Keep the database schema up-to-date and ensure data integrity. Run migrations as needed.
 contribution of each member:
 
-1.AGRIMA: FRONT END OF subject_description.html, admin_subjects.html,BACKEND for connecting adminsign.html and subject_description.html.
+1.AGRIMA: FRONT END OF subject.html, admin_subjects.html, adminsign.html BACKEND for connecting adminsign.html and subject_descriptions.html.
 
 2.SANSKRITI:FRONT END OF home.html,sign.html,loginhello.html, BACKEND for connecting home.html AND sign.html.
 
-3.PRATISTHA:FRONT END OF subject.html,BACKEND FOR Userlogin page, User's subject page.
+3.PRATISTHA:FRONT END OF subject_description.html,BACKEND FOR Userlogin page, User's subject page, connecting Databse with FRONT END.
 
 Contribution:
 
