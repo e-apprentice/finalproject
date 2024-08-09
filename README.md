@@ -127,18 +127,27 @@ Database Schema
 The application uses a PostgreSQL database with the following schema:
 
 Tables
+
 user: Stores user information (user_id, username, email, password).
+
 sem: Stores semester information (semester_id, name).
+
 user_sem: Junction table between users and semesters (user_id, semester_id).
+
 subjects: Stores subjects (subject_id, name, semester_id).
+
 subject_descriptions: Stores detailed descriptions of subjects (subject_id, average_marks, study_days, resources).
 
 Potential Issues:
 
 Database Connectivity: correct database credentials and verify network access. Making sure that PostgreSQL allows connections from your application.
+
 Security: Avoiding hardcoding sensitive information.Validating all inputs to prevent SQL injection.
+
 Validation and Error Handling: Validate user inputs and handle errors gracefully to avoid crashes and provide clear feedback.
+
 Session Management: Secure session data with HTTPS and secure cookies.
+
 Database Schema and Migrations: Keep the database schema up-to-date and ensure data integrity. Run migrations as needed.
 contribution of each member:
 
