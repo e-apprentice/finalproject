@@ -59,7 +59,9 @@ BEI TOPPER'S CLUB is a Flask-based web application designed to manage user accou
    Create a virtual environment and install required packages:
    
    python -m venv venv
+   
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   
    pip install -r requirements.txt
    
    
