@@ -53,7 +53,9 @@ BEI TOPPER'S CLUB is a Flask-based web application designed to manage user accou
 
 
    
-   Setup: 1. Clone the Repository:
+   Setup:
+   
+   1. Clone the Repository:
    
    
    git clone https://github.com/yourusername/your-repo.git
